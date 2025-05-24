@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'comanda.contracts/**'
+      - '.github/workflows/publish-contracts.yml'
 
 jobs:
   build-and-publish:
