@@ -22,7 +22,7 @@ jobs:
       run: dotnet restore comanda.contracts/Source/Comanda.Contracts.csproj
 
     - name: Build project
-      run: dotnet build comanda.contracts/Source/Comanda.Contracts.csproj --configuration Release --output ./nupkg
+      run: dotnet build comanda.contracts/Source/Comanda.Contracts.csproj --configuration Release
 
     - name: Create NuGet package
       run: dotnet pack comanda.contracts/Source/Comanda.Contracts.csproj --configuration Release --output ./nupkg
