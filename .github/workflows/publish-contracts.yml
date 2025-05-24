@@ -18,6 +18,10 @@ jobs:
       with:
         dotnet-version: '9.0.x'
 
+    - name: Check secrets
+      run: echo "NUGET_API_KEY is set"
+      if: ${{ secrets.NUGET_API_KEY != '' }}
+
     - name: Restore dependencies
       run: dotnet restore comanda.contracts/Source/Comanda.Contracts.csproj
 
