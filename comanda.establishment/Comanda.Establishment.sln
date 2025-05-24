@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comanda.Establishment.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comanda.Establishment.WebApi", "Source\Comanda.Establishment.WebApi\Comanda.Establishment.WebApi.csproj", "{3BB8016F-83FE-41F6-B1E9-089ACF352D12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comanda.Establishment.CrossCutting", "Source\Comanda.Establishment.CrossCutting\Comanda.Establishment.CrossCutting.csproj", "{DC0E985A-5363-47C0-AF8E-F88E945D7541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{3BB8016F-83FE-41F6-B1E9-089ACF352D12}.Release|x64.Build.0 = Release|Any CPU
 		{3BB8016F-83FE-41F6-B1E9-089ACF352D12}.Release|x86.ActiveCfg = Release|Any CPU
 		{3BB8016F-83FE-41F6-B1E9-089ACF352D12}.Release|x86.Build.0 = Release|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Release|x64.Build.0 = Release|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +109,6 @@ Global
 		{CF702593-DA93-41DC-8ABA-D38B5D3F8B0A} = {B8EFCA5F-814F-285C-A8CB-F00F14650265}
 		{7D40DFA2-57D1-4750-855C-E3734A8F6BB4} = {B8EFCA5F-814F-285C-A8CB-F00F14650265}
 		{3BB8016F-83FE-41F6-B1E9-089ACF352D12} = {B8EFCA5F-814F-285C-A8CB-F00F14650265}
+		{DC0E985A-5363-47C0-AF8E-F88E945D7541} = {B8EFCA5F-814F-285C-A8CB-F00F14650265}
 	EndGlobalSection
 EndGlobal
