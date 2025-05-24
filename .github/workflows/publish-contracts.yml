@@ -21,7 +21,10 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore comanda.contracts/Source/Comanda.Contracts.csproj
 
-    - name: Build project and create NuGet package
+    - name: Build project
+      run: dotnet build comanda.contracts/Source/Comanda.Contracts.csproj --configuration Release --output ./nupkg
+
+    - name: Create NuGet package
       run: dotnet pack comanda.contracts/Source/Comanda.Contracts.csproj --configuration Release --output ./nupkg
 
     - name: Publish package to NuGet.org
