@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Comanda.Contracts</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Comanda</Authors>
+    <Company>Comanda</Company>
+    <Description>Package of shared contracts for the Comanda system</Description>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
