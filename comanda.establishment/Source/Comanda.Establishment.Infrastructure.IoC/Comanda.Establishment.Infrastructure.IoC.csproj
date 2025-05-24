@@ -19,6 +19,7 @@
     <ProjectReference Include="..\Comanda.Establishment.Application\Comanda.Establishment.Application.csproj" />
     <ProjectReference Include="..\Comanda.Establishment.Domain\Comanda.Establishment.Domain.csproj" />
     <ProjectReference Include="..\Comanda.Establishment.Infrastructure\Comanda.Establishment.Infrastructure.csproj" />
+    <ProjectReference Include="..\Comanda.Establishment.CrossCutting\Comanda.Establishment.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,6 +17,8 @@ global using System.Text.Json.Serialization;
 
 global using Comanda.Establishment.Domain;
 global using Comanda.Establishment.Domain.Entities;
+global using Comanda.Establishment.Application.Commands;
+global using Comanda.Establishment.CrossCutting.Configuration;
 
 /* global usings for third-party namespaces here */
 

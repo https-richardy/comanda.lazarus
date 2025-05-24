@@ -6,20 +6,12 @@ internal static class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddControllers();
-        builder.Services.AddOpenApi();
+        builder.Configuration.LoadEnvironment();
+        builder.Services.AddServices(builder.Configuration);
 
-        var app = builder.Build();
+        var application = builder.Build();
 
-        if (app.Environment.IsDevelopment())
-        {
-            app.MapOpenApi();
-        }
-
-        app.UseHttpsRedirection();
-        app.UseAuthorization();
-
-        app.MapControllers();
-        app.Run();
+        application.SetupPipeline(application.Environment);
+        application.Run();
     }
 }
