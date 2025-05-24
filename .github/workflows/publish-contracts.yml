@@ -16,6 +16,11 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Debug NUGET_API_KEY
+      run: echo "KEY is '${NUGET_API_KEY}'"
+      env:
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v3
       with:
